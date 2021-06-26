@@ -8,10 +8,10 @@
 O chat deverá dispor dos seguintes requisitos:
 
 - Funcionais:
-    - Conversa entre mais de duas pessoas;
-    - Conversa entre apenas duas pessoas;
+    - Criação de conta;
     - Utilização de apelidos para identificação;
-    - Criação de conta.
+    - Conversa entre mais de duas pessoas;
+    - Conversa entre apenas duas pessoas.
 
 - Não funcionais:
     - Armazenamento de histórico de conversa.

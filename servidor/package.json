@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "- _Descrição:_ Este repositório é dedicado ao desenvolvimento de uma aplicação de chat online, sendo seu objetivo apenas aprofundamento em tecnologias e conceitual.\r - _Autor:_ [Matheus Braga Ribeiro](https://github.com/cMatheusBRibeiro)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cMatheusBRibeiro/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cMatheusBRibeiro/chat/issues"
+  },
+  "homepage": "https://github.com/cMatheusBRibeiro/chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
