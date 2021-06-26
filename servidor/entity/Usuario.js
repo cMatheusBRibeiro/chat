@@ -1,17 +1,40 @@
 class Usuario {
 
+    _id
+    _apelido
+    _login
+    _senha
+
     constructor(usuario) {
-        this.usr_apelido = usuario.apelido
-        this.usr_login = usuario.login
-        this.usr_senha = usuario.senha
+        this._id = usuario.id
+        this._apelido = usuario.apelido
+        this._login = usuario.login
+        this._senha = usuario.senha
     }
 
-    toJSON() {
-        
+    get id() {
+        return this._id
+    }
+
+    get apelido() {
+        return this._apelido
+    }
+
+    get login() {
+        return this._login
+    }
+
+    get senha() {
+        return this._senha
+    }
+
+    json() {       
+
         return {
-            usr_apelido: this.usr_apelido,
-            usr_login: this.usr_login,
-            usr_senha: this.usr_senha
+            usr_id: this.id,
+            usr_apelido: this.apelido,
+            usr_login: this.login,
+            usr_senha: this.senha
         }
     }
 }
